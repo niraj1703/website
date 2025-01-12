@@ -1,8 +1,8 @@
-//  import React from 'react';
-//import {HoverMenuButton} from "./HoverMenuButton";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faUser, faCartShopping, faEllipsisVertical, faStore } from '@fortawesome/free-solid-svg-icons';
-import logo from './img/Logo2.png'; import img from './img/img.webp'; import img1 from './img/img1.jpg'; import img2 from './img/img2.jpg';
+ import React from 'react';
+
+import {HoverMenuButton} from "./HoverMenuButton";
+
+import img from './img/img.webp'; import img1 from './img/img1.jpg'; import img2 from './img/img2.jpg';
 import img3 from './img/img3.webp'; import img4 from './img/img4.avif'; import img5 from './img/img5.webp'; import img6 from './img/img6.jpeg';
 import img7 from './img/img7.jpeg'; import img8 from './img/img8.jpeg'; import img9 from './img/img9.jpeg'; import img10 from './img/img10.webp';
 import img11 from './img/img11.jpeg'; import img12 from './img/img12.jpeg'; import img13 from './img/img13.jpeg'; import img14 from './img/img14.jpeg';
@@ -13,60 +13,11 @@ import img27 from './img/img27.jpeg'; import img28 from './img/img28.jpeg'; impo
 import img31 from './img/img31.jpeg'; import img32 from './img/img32.jpeg'; import img33 from './img/img33.jpeg'; import img34 from './img/img34.jpeg';
 import img35 from './img/img35.jpeg';
 
-function Navba(search) {
+function Navba() {
 
     return (
      <>
-            <div className="main-header">
-                <header className="header">
-                    <div className="header-logo">
-                        <img className='image' src={logo} alt="Logo"></img>
-                    </div>
-                    <div className="header-search">
-                        <form action={search}>
-                            <FontAwesomeIcon icon={faMagnifyingGlass} />
-                            <input name="query" ></input>
-                            <button type="submit">Search</button>
-                        </form>
-                    </div>
-                    <div className="header-login">
-                        <a title="Login">
-                            < FontAwesomeIcon icon={faUser} />
-                            <select>
-                                <option>Login</option>
-                            </select>
-                            {/* <HoverMenuButton title="Dropdown 1"  /> 
-                                <HoverMenuButton title="Dropdown 2" /> */}
-                        </a>
-                    </div>
-                    <div className="header-cart">
-                        <a title="Login">
-                            <FontAwesomeIcon icon={faCartShopping} /> Cart
-                        </a>
-                    </div>
-                    <div className="store-section">
-                        <a title="Become a seller">
-                            <FontAwesomeIcon icon={faStore} />
-                        </a>
-                    </div>
-                    <div className="header-dropdown-button">
-                        <a title="Login">
-                            <FontAwesomeIcon icon={faEllipsisVertical} />
-                        </a>
-                    </div>
-                </header>
-            </div>
-            <div className='store-collection'>
-                <div> <img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div>  <img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div> <img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div> <img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div> <img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div><img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div><img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div><img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-                <div><img className='image' src={logo} alt="Logo"></img><span>niraj</span></div>
-            </div>
+          
             <div className="hero-collection">
                 <img src={img} alt={img.webp}></img>
             </div>
