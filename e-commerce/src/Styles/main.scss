@@ -1,6 +1,6 @@
-@use "./variables" as v;
-@use "./colors" as c;
-@use "./mixins" as m;
+@use "./_variables" as v;
+@use "./_colors" as c;
+@use "./_mixins" as m;
 @import "./fonts.css";
 
 * {

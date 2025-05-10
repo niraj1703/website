@@ -1,19 +1,10 @@
-import { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
-import { HelmetProvider } from "react-helmet-async";
-import { Provider } from "react-redux";
-import * as servicerWorker from "../public/register-pwa.js";
-import App from "./App.jsx";
-import { store } from "./App/store.jsx";
-import "./Styles/main.scss";
-import "./i18n.js";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store={store}>
-      <HelmetProvider>
-        <App />
-      </HelmetProvider>
-    </Provider>
-  </StrictMode>
-);
+    <App />
+  </StrictMode>,
+)
